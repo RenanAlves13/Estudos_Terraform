@@ -1,0 +1,30 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore variables files
+*.auto.tfvars
+
+# Ignore override files
+*.tfoverride
+
+# Ignore environment-specific files
+.envrc
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore sensitive files
+*.pem
+*.key
+*.pub
+
+# Lockfile do Terraform (pode ser omitido se preferir reprodutibilidade)
+**/.terraform.lock.hcl
+
+# Arquivo de backend (geralmente contém config sensível como nome do bucket)
+**/backend.hcl
